@@ -1,0 +1,43 @@
+header,#inicio {
+    background-color: #1f2937;
+    color: #f9faf8;
+    border: 0;
+    margin: 0 auto;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+header  ul {
+    all: unset;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.presentacion {
+    display:flex;
+    padding: 5% 10% 5%;
+}
+
+.presentacion p {
+    padding-right: 10%;
+    text-align: justify;
+}
+
+#image-inicio {
+    height: 200px;
+    width: 400px;
+}
+
+h2 {
+    margin:0 auto;
+}
