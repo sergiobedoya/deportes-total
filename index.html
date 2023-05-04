@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <title>Deportes Total Barranquilla - Tu tienda de deportes favorita</title>
     <link rel="stylesheet" type="text/css" href="style/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -11,10 +14,10 @@
         <h1>Deportes Total</h1>
         <nav>
           <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#productos">Productos</a></li>
-            <li><a href="#clientes">Clientes</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#inicio" class="navbar-item">Inicio</a></li>
+            <li><a href="#productos" class="navbar-item">Productos</a></li>
+            <li><a href="#clientes" class="navbar-item">Clientes</a></li>
+            <li><a href="#contacto" class="navbar-item">Contacto</a></li>
           </ul>
         </nav>
       </div>
@@ -31,7 +34,7 @@
               capacitado está disponible para ayudarte a encontrar exactamente
               lo que estás buscando.
             </p>
-            <button>Registrate Ya! º</button>
+            <button class="btn-oscuro">Contactanos Ya!</button>
           </div>
           <div>
             <img id="image-inicio" src="img/image.jpg" alt="foto promocional" />
@@ -39,34 +42,47 @@
         </div>
       </section>
       <section id="productos">
-        <h2>Productos destacados</h2>
+        <h2 class="productos-title">Productos destacados</h2>
         <div class="products-grid">
           <div class="product-card">
-            <img src="img/producto1.jpg" alt="Producto 1" />
-            <h3>Nombre del producto 1</h3>
-            <p>Descripción del producto 1</p>
-            <p>Precio: $XX.XX</p>
-            <button>Comprar</button>
+            <img class="product-img" src="img/basket.jpg" alt="Productos baloncesto" />
+            <h3>Baloncesto</h3>
+            <button class="btn-comprar">Ver más</button>
           </div>
           <div class="product-card">
-            <img src="img/producto2.jpg" alt="Producto 2" />
-            <h3>Nombre del producto 2</h3>
-            <p>Descripción del producto 2</p>
-            <p>Precio: $XX.XX</p>
-            <button>Comprar</button>
+            <img class="product-img" src="img/guantes.jpg" alt="Productos baloncesto" />
+            <h3>Boxeo</h3>
+            <button class="btn-comprar">Ver más</button>
           </div>
           <div class="product-card">
-            <img src="img/producto3.jpg" alt="Producto 3" />
-            <h3>Nombre del producto 3</h3>
-            <p>Descripción del producto 3</p>
-            <p>Precio: $XX.XX</p>
-            <button>Comprar</button>
+            <img class="product-img" src="img/gym.jpg" alt="Productos baloncesto" />
+            <h3>Gimnasio</h3>
+            <button class="btn-comprar">Ver más</button>
           </div>
           <div class="product-card">
-            <img src="img/producto4.jpg" alt="Producto 4" />
-            <h3>Nombre del producto 4</h3>
-            <p>Descripción del producto 4</p>
-            <p>Precio: $XX.XX</p>
+            <img class="product-img" src="img/raquetas.jpg" alt="Productos baloncesto" />
+            <h3>Tennis</h3>
+            <button class="btn-comprar">Ver más</button>
+          </div>
+        </div>
+      </section>
+      <section id="clientes">
+        <p class="recomendacion">"Quiero compartir mi experiencia con Deportes Total. He sido un cliente fiel durante varios 
+          años y siempre me ha sorprendido la calidad de sus productos y la atención al cliente excepcional. 
+          El personal siempre está dispuesto a ayudar y brindar asesoramiento profesional en cuanto a la selección de 
+          artículos deportivos. Además, la variedad de productos que ofrecen es impresionante, desde ropa deportiva 
+          hasta equipos y accesorios, lo que hace que sea mi tienda deportiva de referencia. Definitivamente recomiendo 
+          Deportes Total a cualquier persona que busque productos de alta calidad y un servicio excepcional."</p>
+        <p class="nombre-cliente">-Juan Perez, Runner</p>
+      </section>
+      <section id="contacto">
+        <div class="box">
+          <div class="contacto-texto">
+            <p class="contacto-title">Es hora! Contacta a un asesor!</h3>
+            <p class="contacto-p"> Deja que un integrante de nuestro equipo te asesore en tu próxima compra!</p>
+          </div>
+          <div>
+            <button class="btn-claro">Contactanos Ya!</button>
           </div>
         </div>
       </section>
